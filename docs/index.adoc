@@ -1,0 +1,18 @@
+= SpitFHIR : A Go implementation of the FHIR® standard
+Hildeberto Mendonca <me@hildeberto.com>
+v0.0.0
+:doctype: book
+:pdf-page-size: LETTER
+:encoding: utf-8
+:toc: left
+:toclevels: 3
+:numbered:
+
+> SpitFHIR is a Go implementation of the FHIR® standard with the ambition to deliver the fastest, more productive, and maintainable implementation out there.
+
+:sectnums!:
+
+
+:sectnums:
+
+
