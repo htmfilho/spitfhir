@@ -6,6 +6,8 @@ import (
 	"net/http"
 )
 
-func (s *server) handleIndex(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
-	fmt.Fprint(w, "SpitFHIR!\n")
+func (s *server) handleIndex() httprouter.Handle {
+	return func(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
+		fmt.Fprint(w, "FHIR!\n")
+	}
 }
